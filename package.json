@@ -1,21 +1,20 @@
 {
-  "name": "go-npm",
-  "version": "0.1.8",
+  "name": "@k8scat/go-npm",
+  "version": "0.1.1",
   "description": "Distribute and install Go binaries via NPM",
   "main": "index.js",
   "bin": {
     "go-npm": "./bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir bin --presets es2015"
   },
   "author": "Sanath Kumar Ramesh <dayanandasaraswati@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "mkdirp": "^0.5.1",
-    "request": "^2.81.0",
-    "tar": "^2.2.1"
+    "mkdirp": "^0.5.5",
+    "request": "^2.88.2",
+    "tar": "^2.2.2"
   },
   "repository": {
     "type": "git",
